@@ -44,7 +44,7 @@ result = rag.query("Your question here")
 
 ## Core Components
 
-### RAGSystem Class
+### RAG بSystem Class
 - **Document Loading**: Web scraping with BeautifulSoup and text file loading
 - **Text Splitting**: Recursive character text splitter with configurable chunk size
 - **Vector Store**: FAISS vector database for semantic search
@@ -72,6 +72,7 @@ os.environ["METIS_API_KEY"] = "your-api-key-here"
 - FAISS for vector storage
 - BeautifulSoup4 for web scraping
 - Python 3.9+
+
 
 
 
