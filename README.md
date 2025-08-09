@@ -1,4 +1,4 @@
-# RAG System
+# Simple RAG System
 
 A Retrieval Augmented Generation (RAG) system built with LangChain that supports both web scraping and local text file processing, with Persian language support.
 
@@ -72,6 +72,7 @@ os.environ["METIS_API_KEY"] = "your-api-key-here"
 - FAISS for vector storage
 - BeautifulSoup4 for web scraping
 - Python 3.9+
+
 
 
 
