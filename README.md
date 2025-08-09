@@ -30,18 +30,14 @@ This loads content from a default web URL and provides example queries.
 ```python
 from langrag import RAGSystem
 
-# Initialize the system
 rag = RAGSystem()
 
-# Index documents (auto-detects source type)
 rag.index_docs("your-document.txt")  # Text file
 # or
 rag.index_docs(["https://example.com"])  # Web URLs
 
-# Build the RAG graph
 rag.build_graph()
 
-# Ask questions
 result = rag.query("Your question here")
 ```
 
@@ -76,4 +72,5 @@ os.environ["METIS_API_KEY"] = "your-api-key-here"
 - FAISS for vector storage
 - BeautifulSoup4 for web scraping
 - Python 3.9+
+
 
